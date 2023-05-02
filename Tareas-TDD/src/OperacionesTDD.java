@@ -2,12 +2,23 @@ import java.util.Arrays;
 
 public class OperacionesTDD {
     public static int suma(String input) {
+        int output = 0;
         String trimInput = input.trim();
 
         if (trimInput.equals("")) return 0;
+        if (trimInput.charAt(trimInput.length()-1) == ',') return -1;
 
-        return Arrays.stream(input.split(","))
+        int[] arrayInts = Arrays.stream(input.split(","))
                 .mapToInt(Integer::parseInt)
-                .sum();
+                .toArray();
+
+        for (int integer : arrayInts) {
+            if (integer < 0) {
+                System.out.println("Número negativo no permitido");
+                return -1;
+            }
+            output += integer;
+        }
+        return output;
     }
 }
