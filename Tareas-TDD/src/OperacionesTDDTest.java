@@ -1,3 +1,4 @@
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
@@ -14,11 +15,15 @@ class OperacionesTDDTest {
     static int expectedResult;
     private static final ByteArrayOutputStream outputStreamCaptor = new ByteArrayOutputStream();
 
+    @BeforeAll
+    static void setupAll() {
+        System.setOut(new PrintStream(outputStreamCaptor));
+    }
+
     @BeforeEach
     void setUp() {
         actualResult = expectedResult = 0;
         outputStreamCaptor.reset();
-        System.setOut(new PrintStream(outputStreamCaptor));
     }
 
     @ParameterizedTest
