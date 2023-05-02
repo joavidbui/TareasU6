@@ -37,7 +37,8 @@ class OperacionesTDDTest {
                 Arguments.of("1,2", 3, ""),
                 Arguments.of("1,1,2", 4, ""),
                 Arguments.of("1,2,", -1, ""),
-                Arguments.of("1,2,-2", -1, "Número negativo no permitido")
+                Arguments.of("1,2,-2", -1, "Número negativo no permitido"),
+                Arguments.of("5,1002", 5, "Número superior a 1000 ignorado")
         );
     }
 

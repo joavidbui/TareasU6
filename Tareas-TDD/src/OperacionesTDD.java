@@ -17,6 +17,10 @@ public class OperacionesTDD {
                 System.out.println("Número negativo no permitido");
                 return -1;
             }
+            if (integer > 1000) {
+                System.out.println("Número superior a 1000 ignorado");
+                continue;
+            }
             output += integer;
         }
         return output;
