@@ -27,7 +27,9 @@ class OperacionesTDDTest {
     private static Stream<Arguments> parametrizedtest() {
         return Stream.of(
                 Arguments.of("", 0),
-                Arguments.of("1", 1)
+                Arguments.of("1", 1),
+                Arguments.of("1,2", 3),
+                Arguments.of("1,1,2", 4)
         );
     }
 
