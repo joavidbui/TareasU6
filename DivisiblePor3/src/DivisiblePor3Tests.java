@@ -11,7 +11,5 @@ public class DivisiblePor3Tests {
 
     @ParameterizedTest
     @ValueSource(ints = {4, 7, 250, 7})
-    void noEsDivisibleEntreTres_devuelveFalse(int input) {
-        Assertions.assertFalse(DivisiblePor3.esDivisiblePor3(input));
-    }
+    void noEsDivisibleEntreTres_devuelveFalse(int input) { Assertions.assertFalse(DivisiblePor3.esDivisiblePor3(input)); }
 }
