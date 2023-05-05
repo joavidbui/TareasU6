@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/DivisiblePor3/DivisiblePor3.iml" filepath="$PROJECT_DIR$/DivisiblePor3/DivisiblePor3.iml" />
       <module fileurl="file://$PROJECT_DIR$/Tareas-TDD/Tareas-TDD.iml" filepath="$PROJECT_DIR$/Tareas-TDD/Tareas-TDD.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/TareasU6.iml" filepath="$PROJECT_DIR$/.idea/TareasU6.iml" />
     </modules>
