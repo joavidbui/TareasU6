@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/CovidIFs/CovidIFs.iml" filepath="$PROJECT_DIR$/CovidIFs/CovidIFs.iml" />
       <module fileurl="file://$PROJECT_DIR$/DivisiblePor3/DivisiblePor3.iml" filepath="$PROJECT_DIR$/DivisiblePor3/DivisiblePor3.iml" />
       <module fileurl="file://$PROJECT_DIR$/PasswordVerify/PasswordVerify.iml" filepath="$PROJECT_DIR$/PasswordVerify/PasswordVerify.iml" />
       <module fileurl="file://$PROJECT_DIR$/RefactorIF1/RefactorIF1.iml" filepath="$PROJECT_DIR$/RefactorIF1/RefactorIF1.iml" />
