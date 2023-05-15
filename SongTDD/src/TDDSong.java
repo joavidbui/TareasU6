@@ -34,6 +34,12 @@ public class TDDSong {
             output = output.replaceAll("ANIMAL1", animalList.get(0));
             output = output.replaceAll("ANIMAL2", animalList.get(1));
         }
+        if (animalList.size() >= 3) {
+            output += VERSE3;
+            output = output.replaceAll("ANIMAL1", animalList.get(0));
+            output = output.replaceAll("ANIMAL2", animalList.get(1));
+            output = output.replaceAll("ANIMAL3", animalList.get(2));
+        }
         System.out.println(output);
 
         return output;
