@@ -29,7 +29,11 @@ public class TDDSong {
             output += VERSE1;
             output = output.replaceAll("ANIMAL1", animalList.get(0));
         }
-
+        if (animalList.size() >= 2) {
+            output += VERSE2;
+            output = output.replaceAll("ANIMAL1", animalList.get(0));
+            output = output.replaceAll("ANIMAL2", animalList.get(1));
+        }
         System.out.println(output);
 
         return output;
