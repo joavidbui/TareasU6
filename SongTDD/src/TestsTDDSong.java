@@ -56,22 +56,22 @@ public class TestsTDDSong {
                                 "She swallowed the spider to catch the fly;\n" +
                                 "I don't know why she swallowed a fly - perhaps she'll die!\n" +
                                 "\n"),
-                        Arguments.of(new ArrayList<>(Arrays.asList("bird", "fly", "spider")),
-                                "There was an old lady who swallowed a bird.\n" +
-                                        "I don't know why she swallowed a bird - perhaps she'll die!\n" +
-                                        "\n" +
-                                        "There was an old lady who swallowed a fly;\n" +
-                                        "That wriggled and wiggled and tickled inside her.\n" +
-                                        "She swallowed the fly to catch the bird;\n" +
-                                        "I don't know why she swallowed a bird - perhaps she'll die!\n" +
-                                        "\n" +
-                                        "There was an old lady who swallowed a spider;\n" +
-                                        "How absurd to swallow a spider.\n" +
-                                        "She swallowed the spider to catch the fly,\n" +
-                                        "She swallowed the fly to catch the bird;\n" +
-                                        "I don't know why she swallowed a bird - perhaps she'll die!\n" +
-                                        "\n"
+                Arguments.of(new ArrayList<>(Arrays.asList("bird", "fly", "spider")),
+                        "There was an old lady who swallowed a bird.\n" +
+                                "I don't know why she swallowed a bird - perhaps she'll die!\n" +
+                                "\n" +
+                                "There was an old lady who swallowed a fly;\n" +
+                                "That wriggled and wiggled and tickled inside her.\n" +
+                                "She swallowed the fly to catch the bird;\n" +
+                                "I don't know why she swallowed a bird - perhaps she'll die!\n" +
+                                "\n" +
+                                "There was an old lady who swallowed a spider;\n" +
+                                "How absurd to swallow a spider.\n" +
+                                "She swallowed the spider to catch the fly,\n" +
+                                "She swallowed the fly to catch the bird;\n" +
+                                "I don't know why she swallowed a bird - perhaps she'll die!\n" +
+                                "\n"
 
-                        ));
+                ));
     }
 }

@@ -40,9 +40,7 @@ public class TDDSong {
             output = output.replaceAll("ANIMAL2", animalList.get(1));
             output = output.replaceAll("ANIMAL3", animalList.get(2));
         }
-        System.out.println(output);
 
         return output;
     }
-
 }
